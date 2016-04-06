@@ -5,10 +5,9 @@
 	<head>
 
 	<script src="../a/js/jquery-1.10.2.js"></script>
-	<script src="../a/js/jquery-ui.js"></script>
-	<script src="../a/js/jquery-ui.min.js"></script>
-	<script src="../a/js/guestlist.js"></script>
-	<script src="../a/js/base.js"></script>
+	<script async src="../a/js/jquery-ui.min.js"></script>
+	<script async src="../a/js/guestlist.js"></script>
+	<script async src="../a/js/base.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="../a/css/main.css">
 	<link rel="stylesheet" type="text/css" href="../a/css/jquery-ui.min.css">
@@ -23,7 +22,7 @@
 		<div class="container">
 			<div class="container_bg">
 				<div class="center">
-						<div class="header center_jf text_center">Alex and Sophie
+						<div class="header center_jf text_center dark-blue">Alex and Sophie
 						</div>
 
 						<div>

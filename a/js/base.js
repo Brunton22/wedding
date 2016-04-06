@@ -323,7 +323,8 @@ $( document ).ready(function() {
 
 	$('.popup_close').on("click", function(){
 		$('.popup_form').fadeOut("slow");
-		$('.container').css("background-color", "#f9f9ef");
+		//$('.container').css("background-color", "#f9f9ef");
+		$('.container').css("background-color", "#C9EBFF");
 		$('.img_header').css("border-style", "solid");
 		$('.body').css("overflow-y", "auto");
 	})
@@ -343,6 +344,10 @@ $( document ).ready(function() {
 		$('.bus_1_selection').attr("disabled", true);
 		$('.bus_2_selection').attr("disabled", true);
 	})
+
+	//map border
+
+	$('.google_map_location').css('border-style', 'solid').css('border-width', '2px').css('border-color', '#FFFFFF');
 
 	//Click/Scroll Function
 

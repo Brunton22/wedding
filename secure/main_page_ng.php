@@ -10,9 +10,8 @@
 	<head>
 
 	<script src="../a/js/jquery-1.10.2.js"></script>
-	<script src="../a/js/jquery-ui.js"></script>
-	<script src="../a/js/jquery-ui.min.js"></script>
-	<script src="../a/js/base.js"></script>
+	<script async src="../a/js/jquery-ui.js"></script>
+	<script async src="../a/js/base.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="../a/css/main.css">
 	<link rel="stylesheet" type="text/css" href="../a/css/jquery-ui.min.css">
@@ -28,7 +27,7 @@
 			<div class="container_bg">
 				<div class="center">
 					<div class="header_container">
-						<div class="header text_center">Alex and Sophie
+						<div class="header dark-blue text_center">Alex and Sophie
 						</div>
 
 							<div class="menu_button">
@@ -84,13 +83,13 @@
 							we have registered our preferences with Barbours.<br><br>
 							24-36 Buccleuch Street, Dumfries, DG1 2AL<br>
 							Tel: (01387) 254343<br><br>
-							You can view the giftlist at <a class="barbours" href="http://www.barbours.co.uk/weddinglists/?cid=11&wid=141" target="_blank">www.barbours.co.uk</a><br><br><br><br><br><br><br><br>
+							You can view the giftlist at <a class="barbours" href="http://www.barbours.co.uk/weddinglists/?cid=11&wid=141" target="_blank">www.barbours.co.uk</a>
 						</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="popup_position centered">
+		<div class="popup_position">
 			<form class="popup_form hide">
 				<div class="popup_close"></div>
 				<div class="sub_head rsvp_header text_center">RSVP</div><br>
@@ -113,7 +112,7 @@
 		</div>
 
 		<footer>
-			<div class="center footer_info text_center">Queries? Contact us - mobile: 07805660605 email: sophieandalex2015@gmail.com</div>
+			<div class="center footer_info text_center">Queries? Contact us - mobile: 07805660605 email: sophieandalex2015@gmail.com || Flower graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a></div>
 		</footer>
 	</body>
 
