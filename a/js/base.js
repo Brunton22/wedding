@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 
-
 //Login
 	$('.login_button').on("click touchstart", function(e){
 		e.preventDefault();

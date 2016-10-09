@@ -15,7 +15,7 @@
 
 		$mypassword=$_POST['p_word'];
 
-		$sql ="SELECT * FROM secure WHERE PASS='$mypassword'";
+		$sql ="SELECT * FROM login WHERE PASS='$mypassword'";
 		$result=mysqli_query($conn, $sql);
 
 		$count=mysqli_num_rows($result);

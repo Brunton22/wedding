@@ -16,9 +16,7 @@
 	}
 
 	.footer_info{
-		border-style: solid;
-	    border-width: 1px 0px 0px 0px;
-	    padding-top: 5%;
+		margin-bottom: 15px;
 	}
 
 /*body styles*/
@@ -28,7 +26,7 @@
 	}
 
 	.index_body {
-		height:110%;
+		height:100%;
 		overflow: hidden;
 		background-color: #C9EBFF;
 	}
@@ -100,7 +98,7 @@
 	}
 
 	.rsvp_header {
-		color: #25677D;
+		/*color: #25677D;*/
 		padding-top: 10px;
 	}
 
@@ -144,7 +142,7 @@
 	}
 
 	.rsvp_submit {
-		float: right;
+		/*float: right;
 		width:100px;
 		right:20px;
 		bottom:20px;
@@ -152,11 +150,30 @@
 		color:#fff;
 		font-family: Tahoma, Geneva, sans-serif;
 		height:30px;
-		border: 1p solid #999;
+		border: 1p solid #999;*/
+		float: right;
+		margin-right: 20px;
+	    font-size: 15px;
+	    padding: 10px;
+	    margin-top: 10px;
+	    display: block;
+	    background-color: #009ac9;
+	    border: 1px solid transparent;
+	    color: #ffffff;
+	    font-weight: 300;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	    -webkit-transition: all 0.3s ease-in-out;
+	    -moz-transition: all 0.3s ease-in-out;
+	    transition: all 0.3s ease-in-out;
 	}
 	.rsvp_submit:hover {
-		background:#fff;
-		color:#09C;
+		/*background:#fff;
+		color:#09C;*/
+		cursor: pointer;
+		background-color: #ffffff;
+  		color: #009ac9;
+  		border-color: #009ac9;
 	}
 	.popup_close {
 		background-image: url(../images/close.png);
@@ -239,20 +256,17 @@
 	}
 
 	.nav_menu li {
-		border-bottom: solid;
+		/*border-bottom: solid;
 		border-width: 1px;
-		/*border-color: #CCCC99;*/
-		border-color: #25677D;
-		margin-left: -40px;
+		border-color: #CCCC99;
+		border-color: #25677D;*/
+		display: block;
+		margin-right: 40px;
 	}
 
 
-	.padding_top {
+	.nav_choice {
 		padding-top: 10px;
-	}
-
-	.padding_bottom {
-		padding-bottom: 10px;
 	}
 
 	.rsvp_options {
@@ -275,6 +289,11 @@
 		font-family: 'subheaderfont', 'subheaderfontIE';
 		/*font-size: 52px;*/
 		font-size: 65px;
+		margin-bottom: 15px;
+	}
+
+	.travel_info {
+		margin-bottom: 15px;
 	}
 
 	hr.page_splitter {
@@ -298,13 +317,11 @@
 
 	.menu_header{
 		text-decoration: underline;
+		font-style: italic;
 		font-size: 20px;
+		margin-bottom: 15px;
 	}
 
-	a {
-		text-decoration: none;
-		color: black;
-	}
 	a:-webkit-any-link{
 		text-decoration:none;
 		color: black;
@@ -328,7 +345,18 @@
 	}
 
 	.pts_link {
+		display: block;
+		margin-top: 25px;
 		text-decoration: underline !important;
+	}
+
+	a:-webkit-any-link {
+		text-decoration: none;
+	}
+
+	.main_info {
+		margin-top: 20px;
+		margin-bottom: 30px;
 	}
 
 	.login_form {
@@ -363,10 +391,6 @@
 
 	.barbours {
 		text-decoration: underline !important;
-	}
-
-	.wishlist_info {
-		margin-bottom: 10%;
 	}
 
 /*guestlist */
@@ -426,6 +450,12 @@ and (min-width : 1281px){
     	margin-top: 7%;
 	}
 
+	.login_form {
+	    width: 50%;
+	    padding-top: 90px;
+	    padding-left: 110px;
+	}
+
 	.header {
 		font-size: 130px;
 	}
@@ -434,6 +464,10 @@ and (min-width : 1281px){
 	  margin-left: auto;
 	  margin-right: auto;
 	  width: 60%;
+	}
+
+	.nav_choice {
+		padding-top: 0;
 	}
 
 	hr.page_splitter {
@@ -472,18 +506,21 @@ and (min-width : 1281px){
 	}
 
 	.nav_menu li {
-		display: inline;
+		/*display: inline;*/
 		/*border: none;*/
   	border-width: 1px;
   	border-color: #CCCC99;
   	border-color: #25677D;
- 	 	margin-left: 0px;
-  	margin-right: 40px;
+ 	 margin-left: 0px;
+	display: -webkit-inline-box
 
 	}
+
 	.nav_menu li:hover {
-		border-color: #d7a0f6;
 		cursor: pointer;
+	}
+	.nav_menu li:hover i {
+		color: white;
 	}
 
 	.popup_position {
@@ -524,6 +561,11 @@ and (min-width : 1281px){
   		margin-top: 15%;
   	}
 
+  	.login_form {
+  		width: 50%;
+  		margin-left: 0;
+  	}
+
 	.popup_position {
 		position: fixed;
 		top: 15%;
@@ -561,18 +603,35 @@ and (min-width : 1281px){
 	}
 
 	.rsvp_submit {
-		width:100px;
+		/*width:100px;
 		right:20px;
 		bottom:20px;
 		background:#09C;
 		color:#fff;
 		font-family: Tahoma, Geneva, sans-serif;
 		height:30px;
-		border: 1p solid #999;
+		border: 1p solid #999;*/
+		margin: 0 auto;
+  		font-size: 2.0rem;
+  		padding: 1.25rem 2.5rem;
+  		display: block;
+  		background-color: #009ac9;
+		border: 1px solid transparent;
+		color: #ffffff;
+		font-weight: 300;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 	}
 	.rsvp_submit:hover {
-		background:#fff;
-		color:#09C;
+		/*background:#fff;
+		color:#09C;*/
+		cursor: pointer;
+		background-color: #ffffff;
+	  	color: #009ac9;
+	  	border-color: #009ac9;
 	}
 	.popup_close {
 		background-image: url(../images/close.png);
@@ -589,6 +648,10 @@ and (min-width : 1281px){
 	.table_center {
 		font-size: 15px;
 	}
+
+	.fp-error {
+		font-size: 12px;
+	}
 }
 
 /*ipad landscape*/
@@ -602,6 +665,15 @@ and (min-width : 1281px){
   	.roses-index {
 	    background-image: url('../images/roses-index.png');
 	}
+
+	.fp-error {
+		font-size: 12px;
+	}
+
+	.login_form {
+  		width: 50%;
+  		margin-left: 0;
+  	}
 
 	.popup_position {
 		position: fixed;
@@ -648,7 +720,7 @@ and (min-width : 1281px){
  /*phone portrait*/
 
 @media only screen
-and (max-width : 320px){
+and (max-width : 375px){
 
 	.roses-index{
 		background-image: none;
@@ -692,6 +764,12 @@ and (max-width : 750px) and (orientation: landscape){
 	.popup_position {
 	  top: 12%;
 	}
+
+	.login_form {
+	    width: 50%;
+	    padding-top: 50px;
+	    padding-left: 110px;
+    }
 
 	.home_page_header {
 		font-size: 80px;
