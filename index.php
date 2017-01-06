@@ -45,8 +45,10 @@
 				<div class='login-pic-text'>
 					<div class='pass_border roses-index'>
 						<form class="login_form" id="form" name="form">
-				    	<input name="p_word" class="password" type="text" autocomplete="off" autofocus>
-				    	<input class="login_button" id="send" type="submit" value=">">
+							<div>
+				    		<input name="p_word" class="password" type="text" autocomplete="off" autofocus>
+				    		<input class="login_button" id="send" type="submit" value=">">
+				    	</div>
 				    	<p class="error nopassword fp-error hide">Please Enter A Password</p>
 				    	<p class="error wrongpassword fp-error hide">Incorrect Password</p>
 						</form>

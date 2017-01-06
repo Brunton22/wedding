@@ -329,7 +329,6 @@
 
 	.fp-error {
 		margin-top: 4%;
-		text-align: left;
 	}
 
 	.error {
@@ -360,9 +359,7 @@
 	}
 
 	.login_form {
-		width: 45%;
 	    padding-top: 90px;
-	    padding-left: 110px;
 	}
 
 	.login_button {
@@ -451,9 +448,7 @@ and (min-width : 1281px){
 	}
 
 	.login_form {
-	    width: 50%;
 	    padding-top: 90px;
-	    padding-left: 110px;
 	}
 
 	.header {
@@ -561,11 +556,6 @@ and (min-width : 1281px){
   		margin-top: 15%;
   	}
 
-  	.login_form {
-  		width: 50%;
-  		margin-left: 0;
-  	}
-
 	.popup_position {
 		position: fixed;
 		top: 15%;
@@ -670,11 +660,6 @@ and (min-width : 1281px){
 		font-size: 12px;
 	}
 
-	.login_form {
-  		width: 50%;
-  		margin-left: 0;
-  	}
-
 	.popup_position {
 		position: fixed;
 		top: 18%;
@@ -724,14 +709,11 @@ and (max-width : 375px){
 
 	.roses-index{
 		background-image: none;
+		width:100%;
 	}
 
  	.login_form {
-	    width: 50%;
 	    padding-top: 90px;
-	    padding-left: 0;
-	    margin: auto;
-	    text-align: left;
 	}
 
 	.header {
@@ -766,9 +748,7 @@ and (max-width : 750px) and (orientation: landscape){
 	}
 
 	.login_form {
-	    width: 50%;
 	    padding-top: 50px;
-	    padding-left: 110px;
     }
 
 	.home_page_header {
